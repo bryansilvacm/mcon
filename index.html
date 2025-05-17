@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>CONVERSOR MOEDAS</title>
+</head>
+<body>
+  <div class="fundo">
+    <pre>
+    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $
+    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $
+    $     $     $     $     $    $    $    $    $    $     $     $     $     $     $    $    $    $    $    $     $     $     $     $     $    $    $    $    $    $
+    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $
+    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $
+    $     $     $     $     $    $    $    $    $    $    $     $     $     $     $    $    $    $    $    $
+    </pre>
+  </div>
+    <h1>Conversor de moedas</h1>
+  <main>
+    <section id="sec_valor">
+    <label>Valor:</label>
+    <input id="valor" type="number">
+    </section>
+    <section id="conversao">
+    <label>De:</label>
+    <select class="section_option" id="moedaDe">
+       <option value="BRL">Real (BRL)</option>
+       <option value="USD">Dólar (USD)</option>
+       <option value="EUR">Euro (EUR)</option>
+    </select>
+    
+    <label>Para: </label>
+      <select class="section_option" id="moedaPara">
+        <option value="USD">Dólar (USD)</option>
+        <option value="BRL">Real (BRL)</option>
+        <option value="EUR">Euro (EUR)</option>
+      </select>
+    </section>
+    <button id="converter" onclick="converter()">Converter</button>
+    <section class="res">
+      <p>Resultado:</p>
+      <p id="res"></p>
+    </section>
+    
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
