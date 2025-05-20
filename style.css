@@ -28,6 +28,7 @@ pre{
 h1{
   font-size:2rem;
   color:#F9D304;
+  margin-top:4rem;
 }
 main{
   display:flex;
@@ -72,9 +73,20 @@ button:active{
 }
 @keyframes flash{
   0%, 100%{
-    opacity:0.4;
+    opacity:0.3;
   }
   50%{
     opacity:0;
   }
+}
+.res{
+  background-color:#F9D304;
+  padding:1rem;
+  width:auto;
+  height:auto;
+  border-radius:0.5rem;
+}
+p{
+    color:#333;
+  font-weight:bolder;
 }
