@@ -1,0 +1,1 @@
+Mcon é um conversor de moedas simples e funcional porém elegante e moderno. Você pode acessá-lo por qualquer navegador, em qualquer dispositivo a hora que quiser, nele você pode converter do Real para o Dólar, do Dolar para o Euro, do Euro para o Real e vice-versa.
